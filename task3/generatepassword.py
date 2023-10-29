@@ -1,3 +1,17 @@
+#PASSWORD GENERATOR
+
+#A password generator is a useful tool that generates strong and
+#random passwords for users. This project aims to create a
+#password generator application using Python, allowing users to
+#specify the length and complexity of the password.
+#User Input: Prompt the user to specify the desired length of the
+#password.
+#Generate Password: Use a combination of random characters to
+#generate a password of the specified length.
+#Display the Password: Print the generated password on the screen.
+
+
+
 from tkinter import *
 import tkinter.messagebox as tmsg
 import random
@@ -41,7 +55,7 @@ def generate_password():
 
     random.shuffle(password)
     gen_pass = "".join(password)
-    generated_password.delete(0, END)  # Clear previous content
+    generated_password.delete(0, END)
     generated_password.insert(0, gen_pass)
 
 password_gen.geometry("800x500")
