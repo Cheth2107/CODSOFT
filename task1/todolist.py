@@ -1,3 +1,12 @@
+#TO-DO LIST
+
+#A To-Do List application is a useful project that helps users manage
+#and organize their tasks efficiently. This project aims to create a
+#command-line or GUI-based application using Python, allowing
+#users to create, update, and track their to-do lists
+
+
+
 from tkinter import *
 import tkinter.messagebox as tmsg
 import sqlite3 as sql
@@ -7,7 +16,7 @@ todolist = Tk()
 tasks = []
 
 def addtask():
-    task_string = add_task.get().strip()  # Strip leading and trailing whitespaces
+    task_string = add_task.get().strip()
     if task_string:
         tasks.append(task_string)
         the_cursor.execute('insert into tasks values (?)', (task_string,))
