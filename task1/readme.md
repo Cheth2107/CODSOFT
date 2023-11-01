@@ -65,8 +65,6 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-## Contact
-
 If you have any questions, suggestions, or issues, feel free to reach out:
 
 - **Chethan K**
