@@ -20,7 +20,7 @@ This is a simple to-do list application implemented in Python using Tkinter for 
 
 To run this to-do list app locally, follow these steps:
 
-Creating a README file for a to-do list app using HTML, CSS, and JavaScript is a great way to provide information to potential users and developers. Below is a sample README file for such an app:
+Creating a README file for a to-do list app using tkinter python is a great way to provide information to potential users and developers. Below is a sample README file for such an app:
 
 # To-Do List App
 
@@ -42,6 +42,7 @@ To run this to-do list app locally, follow these steps:
 
 ## Screenshots
 
+![TO DO LIST jpg](https://github.com/Cheth2107/CODSOFT/assets/143086835/840d1dc3-b46b-4402-8c55-96567cc076b7)
 
 
 ## Contributing
